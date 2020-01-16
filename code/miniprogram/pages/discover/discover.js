@@ -5,6 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    courseList:4,
+
+    list: ["/images/first.jpg", "/images/second.jpg", "/images/third.jpg", "/images/fourth.jpg"]
 
   },
 
@@ -12,7 +15,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+   
   },
 
   /**
@@ -62,5 +65,18 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+//搜索
+  
+  suo: function () {
+
+    wx.navigateTo({
+      url: '../discover/searchgoods/searchgoods',
+    })
+
+  },
+
+
+  
 })

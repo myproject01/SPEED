@@ -1,2 +1,42 @@
 <!--miniprogram/pages/discover/discover.wxml-->
-<text>miniprogram/pages/discover/discover.wxml</text>
+<import src="../discover/advtemp/advtemp.wxml"/>
+<!--搜索框-->
+ <view class='page_row' bindtap="suo">  
+  <view class="search">  
+    <view class="search_arr">  
+      <icon type="search"></icon>
+      <text>请输入</text>
+    </view>  
+  </view>
+</view> 
+<!--导航--> 
+<view class="nav">
+  <view class="nav-tab">
+    <view class="nav-item">
+      <image src="/images/food.png"></image>
+      <text>美食</text>
+    </view>
+    <view class="nav-item">
+      <image src="/images/clothes.png"></image>
+      <text>衣服</text>
+    </view>
+    <view class="nav-item">
+      <image src="/images/digital.png"></image>
+      <text>数码</text>
+    </view>
+    <view class="nav-item">
+      <image src="/images/makeup.png"></image>
+      <text>美妆</text>
+    </view>
+    <view class="nav-item">
+      <image src="/images/more.png"></image>
+      <text>更多</text>
+    </view>
+  </view>
+  <!--商品活动-->
+  <view class="adv">
+    <block wx:for="{{list}}" wx:key="title" wx:for-item="item" > 
+      <template is="adv-item" data="{{item}}"/>
+    </block>
+  </view>
+</view>
