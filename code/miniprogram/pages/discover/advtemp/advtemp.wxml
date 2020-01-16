@@ -1,0 +1,5 @@
+<template name="adv-item">
+  <view class="adv-item">
+      <image src="{{item}}" mode="widthFix"></image>
+    </view>
+</template>

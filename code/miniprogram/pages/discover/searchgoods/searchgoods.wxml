@@ -1,0 +1,16 @@
+<!--pages/discover/searchgoods/searchgoods.wxml-->
+ <view class='page_row' bindtap="suo">  
+  <view class="search">  
+    <view class="search_arr">  
+      <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>
+      <view class="cancel" bindtap="cancel">取消</view>
+    </view>  
+  </view>
+  <view class="nav">
+    <text>美食</text>
+    <text>数码</text>
+    <text>衣服</text>
+    <text>美妆</text>
+    <text>更多</text>
+  </view>
+</view>  
