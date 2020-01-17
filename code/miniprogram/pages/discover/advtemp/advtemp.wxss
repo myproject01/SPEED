@@ -1,0 +1,14 @@
+.adv-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      border-radius:20rpx; 
+      margin-top: 20rpx;
+      width: 100%;
+      
+    }
+    .adv-item image{
+      width: 98%;
+      margin: 30rpx 0;
+    }

@@ -1,0 +1,41 @@
+/* pages/discover/searchgoods/searchgoods.wxss */
+.search{  
+      width: 95%;  
+    }  
+    .search_arr {
+      margin-top: 3rpx;
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      justify-content:center;
+      background-color: #F5F5F5;
+      border-radius: 20rpx; 
+    }  
+    .search_arr input{  
+      height: 100rpx; 
+      width: 80%; 
+    }  
+    .cancel{
+      color: #0066FF;
+    }
+  
+    .page_row{ 
+      height: 200rpx;
+      display: flex;  
+      flex-direction:column;
+      align-items:center;
+      border-bottom: 1rpx solid #999b9e;
+    }
+    .nav{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .nav text{
+      margin: 0 4% 0 4%;
+      font-size: 28rpx;
+    }
