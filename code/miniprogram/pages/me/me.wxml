@@ -1,2 +1,12 @@
-<!--miniprogram/pages/me/me.wxml-->
-<text>miniprogram/pages/me/me.wxml</text>
+  <view class="secone">
+    <view class="uploader">
+    <navigator url="" class="text">导航记录</navigator>
+  </view>
+
+
+  <view class="uploader">
+    <button open-type="contact" bindcontact="onCustomerServiceButtonClick" class="uploader-text">
+      进入客服消息
+    </button>
+  </view>
+  </view>

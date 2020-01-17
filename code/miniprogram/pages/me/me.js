@@ -1,18 +1,21 @@
-// miniprogram/pages/me/me.js
+// pages/find/find.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
   },
-
+  onCustomerServiceButtonClick(e) {
+    console.log(e.detail.path);
+    console.log(e.detail.query);
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**

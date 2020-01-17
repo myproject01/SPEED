@@ -14,7 +14,15 @@ App({
         traceUser: true,
       })
     }
-
-    this.globalData = {}
+    wx.getUserInfo({
+      success: res => {
+        this.globalData.userInfo = res.userInfo;
+        console.log(res.userInfo.nickName)
+      }
+    })
+    this.globalData = {
+      userInfo: "",
+      user: {},
+    }
   }
 })
