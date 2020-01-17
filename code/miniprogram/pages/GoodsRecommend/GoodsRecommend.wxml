@@ -1,0 +1,21 @@
+<view class="overall">
+<view class="userinfo">
+<image src="test1.jpg" style="width:30%;height:150rpx;margin-left:40rpx;margin:25rpx;"></image>
+<view class="column" style="width:70%">
+<text style="margin-top:20rpx;font-weight:bold;font-size:45rpx">泉水鱼庄</text>
+<view class="row">
+<text style="font-size:35rpx;margin-top:15rpx;">太古汇商场  5F</text>
+<text class="tags" style="margin-left:30rpx;">中餐</text>
+</view>
+<view class="row">
+<text class="evaluate_tags">早茶不错</text>
+<text class="evaluate_tags">有电梯</text>
+</view>
+<view class="ling"></view>
+<view class="row" style="margin-top:20rpx;">
+<image src="zan.png" style="width:50rpx;height:50rpx"></image>
+<text style="color:#838B8B">虾饺王很不错</text>
+</view>
+</view>
+</view>
+</view>
