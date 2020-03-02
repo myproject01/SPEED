@@ -33,5 +33,9 @@
       <text>更多</text>
     </view>
   </view>
-
+  <view class="adv">
+    <block wx:for="{{list}}" wx:key="title" wx:for-item="item" > 
+      <template is="adv-item" data="{{item}}"/>
+    </block>
+  </view>
 </view>

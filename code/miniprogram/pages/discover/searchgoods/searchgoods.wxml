@@ -1,8 +1,8 @@
-<!--pages/discover/searchgoods/searchgoods.wxml-->
+
  <view class='page_row' bindtap="suo">  
   <view class="search">  
     <view class="search_arr">  
-      <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>
+      <input class="" type="text" placeholder="请输入关键字" value="{{searchValue}}" confirm-type="search" bindconfirm="search"/>
       <view class="cancel" bindtap="cancel">取消</view>
     </view>  
   </view>
@@ -13,4 +13,14 @@
     <text>美妆</text>
     <text>更多</text>
   </view>
-</view>  
+</view>
+<!--搜索记录-->
+<view>
+<view style="">
+  <view style="display:flex;flex-direction:row;width:100%;">
+  <image src="soushuo.png" style="width:40rpx;height:40rpx;margin:20rpx;"></image>
+  <text style="margin-top:18rpx;font-size:35rpx;">肯德基</text>
+  </view>
+  <view style="width:100%;background-color:#999b9e;height:2rpx"></view>
+  </view>
+  </view>

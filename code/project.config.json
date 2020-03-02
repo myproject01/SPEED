@@ -26,6 +26,7 @@
 	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -87,6 +88,13 @@
 					"id": -1,
 					"name": "pages/activity/activity",
 					"pathName": "pages/activity/activity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "搜",
+					"pathName": "pages/discover/searchgoods/searchgoods",
 					"scene": null
 				}
 			]

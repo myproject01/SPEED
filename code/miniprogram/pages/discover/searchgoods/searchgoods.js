@@ -23,6 +23,9 @@ Component({
       wx.navigateBack({
         delta: 1
       })
+    },
+    search: function (event){
+      console.log(event.detail.value);
     }
   },
 
