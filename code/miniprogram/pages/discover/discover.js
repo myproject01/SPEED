@@ -7,7 +7,7 @@ Page({
   data: {
     courseList:4,
 
-    list: ["/images/first.jpg", "/images/second.jpg", "/images/third.jpg", "/images/fourth.jpg"]
+    list: ["cloud://web-cesm9.7765-web-cesm9-1301211111/first.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/second.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/third.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/fourth.jpg"]
 
   },
 

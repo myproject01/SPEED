@@ -4,12 +4,24 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"enhance": true
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
-	"appid": "wx6dfaf39eab2bfd8a",
+	"appid": "wx1623a63b34dbf22f",
 	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AF%BC%E8%B4%AD",
 	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
@@ -28,6 +40,10 @@
 			"list": []
 		},
 		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -50,6 +66,27 @@
 					"id": -1,
 					"name": "GoodsRecommend",
 					"pathName": "pages/GoodsRecommend/GoodsRecommend",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "navigation",
+					"pathName": "pages/navigation/navigation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/discover/discover",
+					"pathName": "pages/discover/discover",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/activity/activity",
+					"pathName": "pages/activity/activity",
 					"scene": null
 				}
 			]

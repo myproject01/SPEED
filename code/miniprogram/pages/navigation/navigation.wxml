@@ -1,2 +1,2 @@
-<!--miniprogram/pages/navigation/navigation.wxml-->
-<text>miniprogram/pages/navigation/navigation.wxml</text>
+
+<web-view src="https://www.maizi.online"></web-view>

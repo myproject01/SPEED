@@ -1,0 +1,9 @@
+  <import src="../discover/advtemp/advtemp.wxml"/>
+    <!--商品活动-->
+  <view class="nav">
+  <view class="adv">
+    <block wx:for="{{list}}" wx:key="title" wx:for-item="item" > 
+      <template is="adv-item" data="{{item}}"/>
+    </block>
+  </view>
+  </view>
