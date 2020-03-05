@@ -1,5 +1,7 @@
 <template name="adv-item">
-  <view class="adv-item">
-      <image src="{{item}}" mode="widthFix"></image>
-    </view>
+<block wx:for="{{list['dataList']}}" wx:key="title" wx:for-item="item" >
+  <view class="adv-item" bindtap="onTapdetail" data-postad="{{item.ProID}}">   
+      <image src="{{item.pic1}}" mode="widthFix"></image>
+  </view>
+  </block>
 </template>

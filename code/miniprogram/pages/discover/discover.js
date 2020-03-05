@@ -1,4 +1,5 @@
 // miniprogram/pages/discover/discover.js
+var postData = require('../../utils/testdata.js'); 
 Page({
 
   /**
@@ -7,7 +8,8 @@ Page({
   data: {
     courseList:4,
 
-    list: ["cloud://web-cesm9.7765-web-cesm9-1301211111/first.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/second.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/third.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/fourth.jpg"]
+    list:[]
+     /*["cloud://web-cesm9.7765-web-cesm9-1301211111/first.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/second.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/third.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/fourth.jpg"]*/
 
   },
 
@@ -15,7 +17,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+    var list = this.data.list
+    this.setData({
+      list: postData
+    })
   },
 
   /**

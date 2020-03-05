@@ -34,8 +34,8 @@
     </view>
   </view>
   <view class="adv">
-    <block wx:for="{{list}}" wx:key="title" wx:for-item="item" > 
-      <template is="adv-item" data="{{item}}"/>
-    </block>
+     
+      <template is="adv-item" data="{{list}}"/>  
+    
   </view>
 </view>
