@@ -9,7 +9,7 @@ Page({
     courseList:4,
 
     list:[]
-     /*["cloud://web-cesm9.7765-web-cesm9-1301211111/first.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/second.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/third.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/fourth.jpg"]*/
+     ["cloud://web-cesm9.7765-web-cesm9-1301211111/first.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/second.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/third.jpg", "cloud://web-cesm9.7765-web-cesm9-1301211111/fourth.jpg"]
 
   },
 
@@ -82,6 +82,6 @@ Page({
 
   },
 
-
+  
   
 })

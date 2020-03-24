@@ -4,7 +4,8 @@
     "pages/discover/discover",
     "pages/me/me",
     "pages/GoodsRecommend/GoodsRecommend",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/discover/adc/adc"
   ],
   "requiredBackgroundModes": [
     "audio",

@@ -81,13 +81,21 @@ Page({
   },
 
   /**跳转详情页 */
+  // onTapdetail: function (event) {
+  //   //var postad = event.currentTarget.dataset.postad   //获取传递的值
+  //  // console.log(postad);
+  //   wx.navigateTo({
+  //     //url: 'post-detail/post-detail'  //跳转详情页  切记配置app.json文件 
+  //     //url: 'post-detail/post-detail?id=' + postad    //传递参数
+  //     url: '../discover/adc/adc'
+  //     //?id=' + postad
+  //   })
+  // },
   onTapdetail: function (event) {
     var postad = event.currentTarget.dataset.postad   //获取传递的值
     console.log(postad);
     wx.navigateTo({
-      //url: 'post-detail/post-detail'  //跳转详情页  切记配置app.json文件 
-      //url: 'post-detail/post-detail?id=' + postad    //传递参数
-      url: '../discover/adc/adc?id=' + postad
+      url: '../discover/adc/adc?id='+postad
     })
   }
 })
