@@ -1,7 +1,7 @@
 <!--miniprogram/pages/discover/discover.wxml-->
 <import src="../discover/advtemp/advtemp.wxml"/>
 <!--搜索框-->
- <view class='page_row' bindtap="suo">  
+<view class='page_row' bindtap="suo">  
   <view class="search">  
     <view class="search_arr">  
       <icon type="search"></icon>
